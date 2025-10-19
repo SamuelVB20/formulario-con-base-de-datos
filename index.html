@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    
+ <section>
+    <header class="encabezado">
+        <h1>!Agenda tu cita!</h1>
+    </header>
+    
+    <form action="mysql-2b2cf5c-samuelvelasquez1975-c185.e.aivencloud.com" class="contenido"> 
+        <input type="text" class="form-control mb-3" id="username" name="username" placeholder="Nombre y Apellido"><br>
+        <input type="Numero" name="Numero" id="Numero" placeholder="Numero" required><br>
+        <input type="datetime-local" name="Fecha y Hora" id="Fecha y Hora"><br>
+
+        <select name="Tipo de paciente" id="Plan de paciente">
+            <option value="" disabled selected>Tipo de paciente</option>
+            <option value="Plamed">Privado-Plamed</option>
+            <option value="Sin seguro">Sin seguro</option>
+        </select>
+
+        <select name="Sucursal" id="Sucursal" required>
+            <option value="" disabled selected> Sucursal donde desea su cita</option>
+            <option value="Dr. Camacho Centro Odontológico Miraflores">Dr. Camacho Centro Odontológico Miraflores</option>
+            <option value="Dr. Camacho Centro Odontológico Los Alcarrizos">Dr. Camacho Centro Odontológico Los Alcarrizos</option>
+        </select>
+
+        <button type="submit" class="btn">Enviar</button>
+    
+    </form>
+
+ </section>
+ 
+ <script src="main.js"></script>  
+</body>
+</html>
